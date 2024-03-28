@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section>
+        <h1 class="text-center text-3xl mb-10">Richest by industry</h1>
+        <button id="display" class="btn btn-outline btn-primary">Display</button>
+        <div id="top-bill" class="grid grid-cols-3 gap-6 mx-auto w-11/12">
+            
+        </div>
+        <div class="flex justify-center mt-6">
+          <button id="show-all" class="btn btn-active btn-primary">Show All</button>
+        </div>
+    </section>
+    <section id="loader" class="mt-6 hidden">
+      <div class="flex justify-center">
+        <button class="btn loading">loading</button>
+
+      </div>
+      
+    </section>
+
+
+    <script src="bill.js"></script>
+</body>
+
+</html>
